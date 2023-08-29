@@ -1,0 +1,13 @@
+.key-slide__button {
+    margin: 0;
+    padding: 0;
+    width: 263px;
+    height: 80px;
+    background-color: var(--system-pink);
+    border-radius: 40px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Circe';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./Circe/Circe-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'DINPro';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./DINPro/DINPro.woff2") format("woff2"),
+       url("./DINPro/DINPro.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'DINPro';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./DINPro/DINPro-Bold.woff2") format("woff2"),
+       url("./DINPro/DINPro-Bold.woff") format("woff");
+}
+
+
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Gilroy/Gilroy-Regular.woff2") format("woff2"),
+       url("./Gilroy/Gilroy-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./Gilroy/Gilroy-Light.woff2") format("woff2"),
+       url("./Gilroy/Gilroy-Light.woff") format("woff");
+}
+@font-face {
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./Gilroy/Gilroy-Bold.woff2") format("woff2"),
+       url("./Gilroy/Gilroy-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./Gilroy/Gilroy-Extrabold.woff2") format("woff2"),
+       url("./Gilroy/Gilroy-Extrabold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./Gilroy/Gilroy-Black.woff2") format("woff2"),
+       url("./Gilroy/Gilroy-Black.woff") format("woff");
+}

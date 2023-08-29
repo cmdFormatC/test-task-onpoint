@@ -1,0 +1,23 @@
+.about-slide__semen-1 {
+    position: absolute;
+    top: 98px;
+    left: 367px;
+    width: 1141px;
+    z-index: 1;
+    animation: slideonforcum 2s;
+    animation-delay: 0.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideonforcum {
+    0% {
+        transform: translateX(20px) translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px) translateY(0px);
+        opacity: 1;
+    }
+}
+

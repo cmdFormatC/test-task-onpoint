@@ -1,0 +1,11 @@
+.title-slide__title {
+    margin: 0;
+    font-size: 109px;
+    line-height: 1.075;
+    text-transform: uppercase;
+    max-width: 912.5px;
+    font-weight: var(--font-weight-300);
+    font-family: var(--font-Gilroy);
+    letter-spacing: 6.1px;
+    z-index: 5;
+}

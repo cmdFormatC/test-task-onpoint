@@ -1,0 +1,19 @@
+.title-slide__bacterium-4 {
+    position: absolute;
+    bottom: 194px;
+    width: 73px;
+    left: 22.5px;
+    z-index: 2;
+    animation: lineroute 10s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes lineroute {
+    0% {
+        transform: translateX(0px) translateY(0px);
+        scale: 1;
+    }
+    100% {
+        transform: translateX(30px) translateY(50px);
+        scale: 0.8;
+    }
+}

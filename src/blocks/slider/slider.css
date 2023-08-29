@@ -1,0 +1,5 @@
+.slider {
+    display: flex;
+    transition: transform 0.3s;
+    width: 300%;
+  }

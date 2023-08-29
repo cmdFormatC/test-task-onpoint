@@ -1,0 +1,25 @@
+.key-slide__bubble-3 {
+    position: absolute;
+    width: 74.5px;
+    bottom: 140px;
+    left: 25px;
+    z-index: 4;
+    animation: bubling3 7s ease-in-out infinite;
+}
+
+@keyframes bubling3 {
+    0% {
+        scale: 1;
+        transform: translate(0, 0);
+
+    }
+    33% {
+        scale: 0.9;
+        transform: translate(20px, 10px);
+    }
+    100% {
+
+        scale: 1;
+        transform: translate(0, 0);
+    }
+}

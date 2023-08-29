@@ -1,0 +1,15 @@
+.key-slide__food-text {
+    background-image: linear-gradient(to left, var(--system-yellow), var(--system-pink-bright));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+    text-shadow: 0px 0px 0px rgba(198, 0, 130, 0.4);
+    font-size: 25px;
+    font-weight: var(--font-weight-400);
+    font-family: var(--font-DINPro);
+    max-width: 250px;
+    margin: 0 40px 0 125px;
+}
+

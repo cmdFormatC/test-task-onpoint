@@ -1,0 +1,16 @@
+.title-slide__button-img {
+    border-radius: 50%;
+    display: inline-block;
+    background-color: var(--system-black);
+    background-image: url('../../../images/titleSlideButtonDirection.png');
+    width: 48.5px;
+    height: 48.5px;
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 15px;
+    margin: 0 20px 0 20px;
+    box-shadow: 3px 3px 3px var(--shadow-gray),
+                -3px -3px 3px var(--shadow-dark);
+
+}

@@ -1,0 +1,11 @@
+.about-slide__semen-5 {
+    position: absolute;
+    bottom: 95px;
+    right: -187.5px;
+    width: 327.5px;
+    animation: slideonforcum 2s;
+    animation-delay: 0.9s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    z-index: 2;
+}

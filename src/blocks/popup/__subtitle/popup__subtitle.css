@@ -1,0 +1,8 @@
+.popup__subtitle {
+    margin: 0 0 0 210px;
+    font-weight: var(--font-weight-400);
+    font-family: var(--font-DINPro);
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}

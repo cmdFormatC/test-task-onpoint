@@ -1,0 +1,4 @@
+.popup__button_left {
+    transform: scaleX(-1);
+    margin: 0 17px 0 0;
+}

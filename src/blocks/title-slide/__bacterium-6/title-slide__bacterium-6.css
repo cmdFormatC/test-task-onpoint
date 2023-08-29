@@ -1,0 +1,29 @@
+.title-slide__bacterium-6 {
+    position: absolute;
+    width: 227.5px;
+    right: 255px;
+    bottom: -98px;
+    animation: swiming 5s linear infinite;
+}
+
+@keyframes swiming {
+    0% {
+        scale: 0.9;
+        transform: translate(0, 0);
+
+    }
+    33% {
+        scale: 1;
+        transform: translate(0, 0);
+    }
+    66% {
+
+        scale: 0.95;
+        transform: translate(-10px, -10px);
+    }
+    100% {
+
+        scale: 0.9;
+        transform: translate(0, 0);
+    }
+}

@@ -1,0 +1,9 @@
+.key-slide__day-text {
+    color: #2e2e2e;
+    line-height: 1.2;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'DINPro', Arial, sans-serif;
+    max-width: 135px;
+    margin: 0 85px 0 42.5px;
+}

@@ -1,0 +1,5 @@
+.key-slide__bottle {
+    position: absolute;
+    height: 768px;
+    z-index: 5;
+}

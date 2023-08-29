@@ -1,0 +1,24 @@
+.title-slide__bacterium-3 {
+    position: absolute;
+    top: 200px;
+    right: 52px;
+    width: 110.5px;
+    animation: moveOnOval 10s linear infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes moveOnOval {
+    0% {
+      transform: translateX(0px) translateY(0) rotate(0deg);
+    }
+    33% {
+      transform: translateX(-40px) translateY(-30px) rotate(30deg); 
+    }
+    50% {
+      transform: translateX(-30px) translateY(-40px) rotate(40deg); 
+    }
+    100% {
+        transform: translateX(0) translateY(0) rotate(90deg);
+    }
+}

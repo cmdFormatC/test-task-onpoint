@@ -1,0 +1,11 @@
+.about-slide {
+    width: 100vw;
+    height: 100vh;
+    max-width: 1024px;
+    max-height: 768px;
+    background-image: url('../../images/aboutBg.png');
+    background-size: 1024px 768px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}

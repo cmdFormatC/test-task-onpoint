@@ -1,0 +1,35 @@
+#root {
+    max-width: 1024px;
+    max-height: 768px;
+    position: relative;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+:root {
+    --system-black: #171717;
+    --system-dark-gray: rgb(39,39,39);
+    --system-white: #fff;
+    --system-pink: rgb(255, 106, 159);
+    --system-pink-bright: #ff329c;
+    --system-yellow: #ffdb41;
+    --scrollbar-color: #ed5790;
+    --system-cyan: #8cc9e8;
+
+    --border-gray: rgba(157, 185, 198, 0.5);
+
+    --shadow-grey: rgba(255, 255, 255, 0.5);
+    --shadow-dark: rgba(0, 0, 0, 0.5);
+    --shadow-gray: rgba(157, 185, 198, 0.5);
+    --shadow-grey-clarity: rgba(255, 255, 255, 0.39);
+    --shadow-blue-clarity: rgba(43, 75, 89, 0.39);
+
+    --font-Gilroy: 'Gilroy', Arial, sans-serif;
+    --font-DINPro: 'DINPro', Arial, sans-serif;
+    --font-Circe: 'Circe', Arial, sans-serif;
+
+    --font-weight-800: 800;
+    --font-weight-700: 700;
+    --font-weight-400: 400;
+    --font-weight-300: 300;
+}

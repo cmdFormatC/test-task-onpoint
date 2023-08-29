@@ -1,0 +1,5 @@
+.about-slide__content {
+    margin: 45px auto 0 79px;
+    display: flex;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,6 @@
+.header__navbar {
+    max-height: 51px;
+    display: flex;
+    flex-direction: row;
+    margin: 25.5px 0 0 66px;
+}
