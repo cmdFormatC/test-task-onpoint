@@ -2,93 +2,44 @@
 
 @import url(./vendor/fonts/fonts.css);
 
-@import url(./blocks/root/root.css);
-@import url(./blocks/App/App.css);
+.App {
+    overflow: hidden;
+    width: 1024px;
+    position: relative;
+}
 
-@import url(./blocks/header/header.css);
-@import url(./blocks/header/__delimiter/header__delimiter.css);
-@import url(./blocks/header/__home-button/header__home-button.css);
-@import url(./blocks/header/__navbar/header__navbar.css);
-@import url(./blocks/header/__paragraph/header__paragraph.css);
+#root {
+    max-width: 1024px;
+    max-height: 768px;
+    position: relative;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+:root {
+    --system-black: #171717;
+    --system-dark-gray: rgb(39,39,39);
+    --system-white: #fff;
+    --system-pink: rgb(255, 106, 159);
+    --system-pink-bright: #ff329c;
+    --system-yellow: #ffdb41;
+    --scrollbar-color: #ed5790;
+    --system-cyan: #8cc9e8;
 
-@import url(./blocks/footer/footer.css);
-@import url(./blocks/footer/__logo/footer__logo.css);
+    --border-gray: rgba(157, 185, 198, 0.5);
 
-@import url(./blocks/slider/slider.css);
+    --shadow-grey: rgba(255, 255, 255, 0.5);
+    --shadow-dark: rgba(0, 0, 0, 0.5);
+    --shadow-gray: rgba(157, 185, 198, 0.5);
+    --shadow-grey-clarity: rgba(255, 255, 255, 0.39);
+    --shadow-blue-clarity: rgba(43, 75, 89, 0.39);
 
-@import url(./blocks/title-slide/title-slide.css);
-@import url(./blocks/title-slide/__button/title-slide__button.css);
-@import url(./blocks/title-slide/__content/title-slide__content.css);
-@import url(./blocks/title-slide/__greetings/title-slide__greetings.css);
-@import url(./blocks/title-slide/__title-accent/title-slide__title-accent.css);
-@import url(./blocks/title-slide/__title/title-slide__title.css);
-@import url(./blocks/title-slide/__button-img/title-slide__button-img.css);
-@import url(./blocks/title-slide/__button-text/title-slide__button-text.css);
-@import url(./blocks/title-slide/__large-semen/title-slide__large-semen.css);
-@import url(./blocks/title-slide/__microbe/title-slide__microbe.css);
-@import url(./blocks/title-slide/__small-semen/title-slide__small-semen.css);
-@import url(./blocks/title-slide/__bacterium-1/title-slide__bacterium-1.css);
-@import url(./blocks/title-slide/__bacterium-2/title-slide__bacterium-2.css);
-@import url(./blocks/title-slide/__bacterium-3/title-slide__bacterium-3.css);
-@import url(./blocks/title-slide/__bacterium-4/title-slide__bacterium-4.css);
-@import url(./blocks/title-slide/__bacterium-5/title-slide__bacterium-5.css);
-@import url(./blocks/title-slide/__bacterium-6/title-slide__bacterium-6.css);
+    --font-Gilroy: 'Gilroy', Arial, sans-serif;
+    --font-DINPro: 'DINPro', Arial, sans-serif;
+    --font-Circe: 'Circe', Arial, sans-serif;
 
-@import url(./blocks/about-slide/about-slide.css);
-@import url(./blocks/about-slide/__content/about-slide__content.css);
-@import url(./blocks/about-slide/__paragraph/about-slide__paragraph.css);
-@import url(./blocks/about-slide/__scrollbar-thumb/about-slide__scrollbar-thumb.css);
-@import url(./blocks/about-slide/__scrollbar-track/about-slide__scrollbar-track.css);
-@import url(./blocks/about-slide/__title/about-slide__title.css);
-@import url(./blocks/about-slide/__text-container/about-slide__text-container.css);
-@import url(./blocks/about-slide/__accent/about-slide__accent.css);
-@import url(./blocks/about-slide/__semen-1/about-slide__semen-1.css);
-@import url(./blocks/about-slide/__semen-2/about-slide__semen-2.css);
-@import url(./blocks/about-slide/__semen-3/about-slide__semen-3.css);
-@import url(./blocks/about-slide/__semen-4/about-slide__semen-4.css);
-@import url(./blocks/about-slide/__semen-5/about-slide__semen-5.css);
-
-@import url(./blocks/key-slide/key-slide.css);
-@import url(./blocks/key-slide/__accent/key-slide__accent.css);
-@import url(./blocks/key-slide/__container/key-slide__container.css);
-@import url(./blocks/key-slide/__button-img/key-slide__button-img.css);
-@import url(./blocks/key-slide/__button-text/key-slide__button-text.css);
-@import url(./blocks/key-slide/__button/key-slide__button.css);
-@import url(./blocks/key-slide/__content/key-slide__content.css);
-@import url(./blocks/key-slide/__day-container/key-slide__day-container.css);
-@import url(./blocks/key-slide/__day-img/key-slide__day-img.css);
-@import url(./blocks/key-slide/__day-text/key-slide__day-text.css);
-@import url(./blocks/key-slide/__food-container/key-slide__food-container.css);
-@import url(./blocks/key-slide/__food-img/key-slide__food-img.css);
-@import url(./blocks/key-slide/__food-text/key-slide__food-text.css);
-@import url(./blocks/key-slide/__subtitle/key-slide__subtitle.css);
-@import url(./blocks/key-slide/__title/key-slide__title.css);
-@import url(./blocks/key-slide/__bubble-1/key-slide__bubble-1.css);
-@import url(./blocks/key-slide/__bubble-2/key-slide__bubble-2.css);
-@import url(./blocks/key-slide/__bubble-3/key-slide__bubble-3.css);
-@import url(./blocks/key-slide/__bubble-4/key-slide__bubble-4.css);
-@import url(./blocks/key-slide/__bubble-5/key-slide__bubble-5.css);
-@import url(./blocks/key-slide/__bubble-6/key-slide__bubble-6.css);
-@import url(./blocks/key-slide/__bubble-7/key-slide__bubble-7.css);
-@import url(./blocks/key-slide/__bubble-8/key-slide__bubble-8.css);
-@import url(./blocks/key-slide/__bottle/key-slide__bottle.css);
-
-@import url(./blocks/popup/popup.css);
-@import url(./blocks/popup/__button/popup__button.css);
-@import url(./blocks/popup/__button/_left/popup__button_left.css);
-@import url(./blocks/popup/__button/_right/popup__button_right.css);
-@import url(./blocks/popup/__close-button/popup__close-button.css);
-@import url(./blocks/popup/__container/popup__container.css);
-@import url(./blocks/popup/__nav-indicator/_activ/popup__nav-indicator_activ.css);
-@import url(./blocks/popup/__nav-indicator/popup__nav-indicator.css);
-@import url(./blocks/popup/__nav/popup__nav.css);
-@import url(./blocks/popup/__advantages/popup__advantages.css);
-@import url(./blocks/popup/__advantag/popup__advantag.css);
-@import url(./blocks/popup/__advantag-description/popup__advantag-description.css);
-@import url(./blocks/popup/__advantag-number/popup__advantag-number.css);
-@import url(./blocks/popup/___title/popup___title.css);
-@import url(./blocks/popup/__subtitle/popup__subtitle.css);
-@import url(./blocks/popup/_open/popup_open.css);
-
-
-
+    --font-weight-800: 800;
+    --font-weight-700: 700;
+    --font-weight-400: 400;
+    --font-weight-300: 300;
+}

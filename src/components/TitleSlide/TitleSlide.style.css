@@ -1,0 +1,224 @@
+.title-slide {
+    width: 100vw;
+    height: 100vh;
+    max-width: 1024px;
+    max-height: 768px;
+    background-image: url('../../images/titleBg.png');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.title-slide__title-accent {
+    font-weight: var(--font-weight-800);
+    margin: 0 0 0 33px;
+}
+
+.title-slide__title {
+    margin: 0;
+    font-size: 109px;
+    line-height: 1.075;
+    text-transform: uppercase;
+    max-width: 912.5px;
+    font-weight: var(--font-weight-300);
+    font-family: var(--font-Gilroy);
+    letter-spacing: 6.1px;
+    z-index: 5;
+}
+
+.title-slide__small-semen {
+    width: 413.5px;
+    position: absolute;
+    left: -134px;
+    bottom: -9px;
+}
+
+.title-slide__microbe {
+    position: absolute;
+    top: 72px;
+    width: 214px;
+    left: -88px;
+}
+
+.title-slide__large-semen {
+    position: absolute;
+    top: 155px;
+    right: 0px;
+    width: 591.5px;
+    z-index: 6;
+}
+
+.title-slide__greetings {
+    margin: 0 0 17px 2px;
+    font-size: 27px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.title-slide__content {
+    padding: 164px 0 0 0;
+    margin: 0 0 0 65px;
+    font-family: var(--font-DINPro);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.title-slide__button-text {
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 1.25px;
+    line-height: 1.075;
+    margin: 0;
+}
+
+.title-slide__button-img {
+    border-radius: 50%;
+    display: inline-block;
+    background-color: var(--system-black);
+    background-image: url('../../images/titleSlideButtonDirection.png');
+    width: 48.5px;
+    height: 48.5px;
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 15px;
+    margin: 0 20px 0 20px;
+    box-shadow: 3px 3px 3px var(--shadow-gray),
+                -3px -3px 3px var(--shadow-dark);
+}
+
+.title-slide__button {
+    margin: 0;
+    padding: 0;
+    width: 287.75px;
+    height: 80px;
+    background-color: var(--system-pink);
+    border-radius: 40px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    right: 108.5px;
+    bottom: 17px;
+    z-index: 10;
+}
+
+.title-slide__bacterium-1 {
+    position: absolute;
+    top: 62px;
+    width: 62.5px;
+    right: 217px;
+    animation: triangle 10s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes triangle {
+0% {
+    transform: translateX(0px) translateY(0px);
+    scale: 1;
+}
+33% {
+    transform: translateX(15px) translateY(7px);
+    scale: 0.9;
+}
+66% {
+    transform: translateX(0px) translateY(6px);
+    scale: 1;
+}
+100% {
+    transform: translateX(0px) translateY(0px);
+    scale: 0.9;
+}
+}
+
+.title-slide__bacterium-2 {
+    position: absolute;
+    width: 72px;
+    top: 30px;
+    right: 35px;
+}
+
+.title-slide__bacterium-3 {
+    position: absolute;
+    top: 200px;
+    right: 52px;
+    width: 110.5px;
+    animation: moveOnOval 10s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moveOnOval {
+    0% {
+      transform: translateX(0px) translateY(0) rotate(0deg);
+    }
+    33% {
+      transform: translateX(-40px) translateY(-30px) rotate(30deg); 
+    }
+    50% {
+      transform: translateX(-30px) translateY(-40px) rotate(40deg); 
+    }
+    100% {
+        transform: translateX(0) translateY(0) rotate(90deg);
+    }
+}
+
+.title-slide__bacterium-4 {
+    position: absolute;
+    bottom: 194px;
+    width: 73px;
+    left: 22.5px;
+    z-index: 2;
+    animation: lineroute 10s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes lineroute {
+    0% {
+        transform: translateX(0px) translateY(0px);
+        scale: 1;
+    }
+    100% {
+        transform: translateX(30px) translateY(50px);
+        scale: 0.8;
+    }
+}
+
+.title-slide__bacterium-5 {
+    position: absolute;
+    width: 84.5px;
+    bottom: 60px;
+    left: 347.5px;
+}
+
+.title-slide__bacterium-6 {
+    position: absolute;
+    width: 227.5px;
+    right: 255px;
+    bottom: -98px;
+    animation: swiming 5s linear infinite;
+}
+
+@keyframes swiming {
+    0% {
+        scale: 0.9;
+        transform: translate(0, 0);
+
+    }
+    33% {
+        scale: 1;
+        transform: translate(0, 0);
+    }
+    66% {
+
+        scale: 0.95;
+        transform: translate(-10px, -10px);
+    }
+    100% {
+
+        scale: 0.9;
+        transform: translate(0, 0);
+    }
+}

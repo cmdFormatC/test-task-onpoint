@@ -1,0 +1,44 @@
+.header {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+
+.header__delimiter {
+    border-left: 1px solid var(--system-dark-gray);
+    height: 25.5px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header__home-button {
+    padding: 0;
+    background-image: url('../../images/homeButton.svg');
+    width: 24px;
+    height: 21px;
+    background-color: transparent;
+    border: none;
+    background-size: 24px 21px; 
+    background-repeat: no-repeat;
+    margin: 1px 23px 0 0;
+    cursor: pointer;
+}
+
+.header__navbar {
+    max-height: 51px;
+    display: flex;
+    flex-direction: row;
+    margin: 25.5px 0 0 66px;
+}
+
+.header__paragraph {
+    font-family: 'Circe', 'Arial', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 17.41px;
+    color: var(--system-dark-gray);
+    font-size: 17px;
+    padding: 0;
+    margin: 6px 0 0 24px;
+    letter-spacing: 1.75px;
+}
