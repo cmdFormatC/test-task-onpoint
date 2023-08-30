@@ -1,9 +1,9 @@
 import React from "react";
 import "./Header.style.css";
 
-export default function Header(props) {
+export default function Header({ goToSlide }) {
   const handleHomeButtonClick = () => {
-    props.goToSlide(0);
+    goToSlide(0);
   };
   return (
     <header className="header">
