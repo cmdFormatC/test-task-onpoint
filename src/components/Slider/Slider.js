@@ -10,7 +10,7 @@ export default function Slider({
   translate,
   setTranslate,
   changeSelectedSlide,
-  goToSlideNuber,
+  goToSlide,
 }) {
   const [startX, setStartX] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
@@ -44,7 +44,7 @@ export default function Slider({
   };
   const handleTouchEnd = () => {
     setIsDragging(false);
-    goToSlideNuber(selectedSlide);
+    goToSlide(selectedSlide);
   };
   return (
     <section
@@ -55,7 +55,7 @@ export default function Slider({
       onTouchEnd={handleTouchEnd}
       className="slider"
     >
-      <TitleSlide goToSlideNuber={goToSlideNuber} />
+      <TitleSlide goToSlideNuber={goToSlide} />
       <AboutSlide
         key={animationKey}
         isScrolling={isScrolling}

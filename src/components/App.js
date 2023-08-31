@@ -25,7 +25,7 @@ function App() {
         translate={currentTranslate}
         setTranslate={setCurrentTranslate}
         sliderRef={sliderRef}
-        goToSlideNumber={goToSlideNumber}
+        goToSlide={goToSlideNumber}
       />
       <Footer />
     </div>
